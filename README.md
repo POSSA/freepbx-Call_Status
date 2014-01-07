@@ -3,15 +3,15 @@ FeePBX Call Status
 
 Forked from http://sysadminman.net/blog/2013/asterisk-outbound-call-status-page-5600 and modified for FreePBX system running version 2.9 or higher
 
-## Compatibility
+## Requirements
 FreePBX version 2.9 or later. 
 
-## Installation:
+## Installation
 * On a FreePBX system, download the files to the folder `[webroot]/call-status`
 * chown and chmod folder and files as necessary
 * In a browser, navigate to `http://<ipaddress>/call-status`.
 
-## License:
+## License
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
