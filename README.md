@@ -5,7 +5,7 @@ Forked from http://sysadminman.net/blog/2013/asterisk-outbound-call-status-page-
 
 Installation:
 
-Copy the files into a folder in web root of the FreePBX system. Navigate to `http://<ipaddress>/<foldername>`. Chown and chmod files as necessary.
+Copy the files into a folder in web root of the FreePBX system and chown and chmod files as necessary. Navigate to `http://<ipaddress>/<foldername>`. That's it.
 
 License:
 
