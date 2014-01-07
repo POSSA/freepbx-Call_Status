@@ -1,7 +1,8 @@
 FeePBX Call Status
 ===================
 
-Forked from http://sysadminman.net/blog/2013/asterisk-outbound-call-status-page-5600 and modified for FreePBX system running version 2.9 or higher
+Forked from http://sysadminman.net/blog/2013/asterisk-outbound-call-status-page-5600 and modified for FreePBX system running version 2.9 or higher.
+This is a simple HTML page that displays all active calls on a FreePBX system. This is not a FreePBX module, and does not require system credentials to view.
 
 ## Requirements
 FreePBX version 2.9 or later. 
