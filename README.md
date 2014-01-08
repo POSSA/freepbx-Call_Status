@@ -5,7 +5,8 @@ Forked from http://sysadminman.net/blog/2013/asterisk-outbound-call-status-page-
 This is a simple HTML page that displays all active calls on a FreePBX system. This is not a FreePBX module, and does not require system credentials to view.
 
 ## Requirements
-FreePBX version 2.9 or later. 
+* FreePBX version 2.9 or later
+* Tested with Asterisk 1.8 and 11
 
 ## Installation
 * On a FreePBX system, download the files to the folder `[webroot]/call-status`
