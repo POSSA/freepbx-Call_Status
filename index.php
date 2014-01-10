@@ -16,7 +16,7 @@ function()
 {
 var status = $("#status").val();
 $('#status').load('status.php', {status:status});
-}, 3000);
+}, 1000);
 </script>
 
 <script>
@@ -27,9 +27,8 @@ $('#status').load('status.php');
 
 </head>
 <body>
-
 <div class="container">
-
+<h2>Active Call List</h2>
 <div class="row">
 <div class="span3"></div>
 <div class="span6" id="status"></div>
