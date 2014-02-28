@@ -62,7 +62,7 @@ foreach(explode("\n", $result['data']) as $line)
 		echo "<td class='large';>" . gmdate("H:i:s", $pieces[11]) . "</td>";
 		echo "<td class='large';>" . $pieces[7] . "</td>";
 		echo "<td class='large';>" . $to[7] . "</td>";
-		echo "<td class='large';>" . $pieces[12] . "</br>". $to[12] ."</td>";
+		echo "<td class='large';>" . trim(substr($pieces[12], 0, strpos($pieces[12], '-'))) . "</br>". trim(substr($to[12], 0, strpos($to[12], '-'))) ."</td>";
 		echo "</tr>";
 	}
 }
