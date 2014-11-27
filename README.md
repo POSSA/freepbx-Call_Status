@@ -13,6 +13,12 @@ This is a simple HTML page that displays all active calls on a FreePBX system. T
 * chown and chmod folder and files as necessary
 * In a browser, navigate to `http://<ipaddress>/call-status`.
 
+As an example, to install on a Centos based distro such as PIAF or the FreePBX distro, you might use the following commands:
+```
+cd /var/www/html
+git clone https://github.com/POSSA/freepbx-Call_Status.git call-status
+chown -R asterisk:asterisk /var/www/html/call-status
+```
 ## License
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
 
