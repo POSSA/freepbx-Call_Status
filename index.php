@@ -16,7 +16,7 @@ function()
 {
 var status = $("#status").val();
 $('#status').load('status.php', {status:status});
-}, 1000);
+}, 5000);
 </script>
 
 <script>
